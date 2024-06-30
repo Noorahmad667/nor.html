@@ -1,0 +1,46 @@
+body{
+    background-color: bisque;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+h2{
+    color: rgb(233, 84, 25);
+}
+
+.powepuff{
+    width:30%;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 80px;
+}
+img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+h1{
+    text-align: center;
+}
+@media(max-width:680px)
+{ .powepuff{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.powepuff img{
+    display: inline;
+    width: 100%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+}
